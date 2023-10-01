@@ -1,0 +1,2 @@
+# sntc
+Official SNTC Website
