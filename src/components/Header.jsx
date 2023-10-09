@@ -51,8 +51,11 @@ function Header() {
           </NavLink>
         </div>
       </nav>
-      <div className="text-center text-gray-300 text-xl">
-        Science and Technology Council - IIT Mandi
+      <div className="flex flex-col items-center justify-center gap-3">
+      <div className="text-2xl text-center text-gray-300 tracking-[4px]">
+        Science and Technology Council  
+      </div>
+      <div className="justify-center text-2xl font-bold text-gray-300 tracking-[4px]">IIT Mandi</div>
       </div>
     </header>
   );

@@ -10,11 +10,13 @@ import {
 import Layout from "./Layout.jsx";
 import Home from "./components/Home";
 import InterIIT from "./components/InterIIT";
+import Services from "./components/Services";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
+      <Route path="services" element={<Services/>} />
       <Route path="interIIT" element={<InterIIT />} />
     </Route>
   )
