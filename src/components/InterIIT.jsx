@@ -1,9 +1,11 @@
+import tenor from "../assets/tenor.gif";
+
 function InterIIT() {
   return (
     <div className="mx-auto w-full py-4">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/3 md:p-16 hidden sm:block">
-          <img src="/src/assets/tenor.gif" alt="gif" />
+          <img src={tenor} alt="gif" />
         </div>
         <div className="w-full md:w-2/3 p-8">
           <h1 className="text-4xl text-white leading-7 text-center py-4">
