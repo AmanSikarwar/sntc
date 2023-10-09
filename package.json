@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://amansikarwar.github.io/sntc",
+  "homepage": "https://amansikarwar.github.io/sntc/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deplop": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
