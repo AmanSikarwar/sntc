@@ -4,7 +4,7 @@ import "./index.css";
 import {
   Route,
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
@@ -12,11 +12,11 @@ import Home from "./components/Home";
 import InterIIT from "./components/InterIIT";
 import Services from "./components/Services";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
-      <Route path="services" element={<Services/>} />
+      <Route path="services" element={<Services />} />
       <Route path="interIIT" element={<InterIIT />} />
     </Route>
   )
