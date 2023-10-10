@@ -40,7 +40,7 @@ function Header() {
             Inter IIT
           </NavLink>
           <NavLink
-            to="contact"
+            to="contacts"
             className={({ isActive }) =>
               `$duration-200 border-b-2 border-blue-500 hover:text-blue-700 hover:border-blue-700 sm:mx-2 lg:mx-4 ${
                 isActive ? "text-blue-500" : "text-gray-400"

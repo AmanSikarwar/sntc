@@ -11,6 +11,7 @@ import Layout from "./Layout.jsx";
 import Home from "./components/Home";
 import InterIIT from "./components/InterIIT";
 import Services from "./components/Services";
+import Contacts from "./components/Contacts";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createHashRouter(
       <Route path="" element={<Home />} />
       <Route path="services" element={<Services />} />
       <Route path="interIIT" element={<InterIIT />} />
+      <Route path="contacts" element={<Contacts />} />
     </Route>
   )
 );
